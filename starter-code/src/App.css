@@ -1,0 +1,74 @@
+*{
+  box-sizing: border-box
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.app{
+  font-family: Lato;
+  max-width: 100vh;
+}
+
+header{
+  padding: 20px 50px;
+  color: white;
+  background-color: #1F2535;
+}
+
+header button{
+  color: #1F2535;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.sub-header h1{
+  font-size: 3em;
+}
+
+.sub-header p{
+  font-weight: 100;
+  font-size: 1.5em;
+}
+
+.upper-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub-header{
+  width: 50%;
+}
+
+.card-container{
+  display: flex;
+  padding: 10px;
+}
+
+.card-container h4{
+  color: #1F2535;
+  font-size: 1em;
+}
+
+.card p {
+  color: black;
+  font-weight: 100;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.images{
+  width: 100px;
+  height: 100px;
+}
