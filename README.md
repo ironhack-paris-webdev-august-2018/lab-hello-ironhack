@@ -27,37 +27,36 @@ We just learned the basics about creating a **Hello World** app in ReactJS, so w
 
 ### Iteration 1 - Create the App
 
-Let's start with the basic, inside the folder init a `package.json`, and all the folders you will need for the project: `dist` and `src`. Also, remember to create an `index.html` file, where you will have the entry point of the application.
+Let's start with the basics:
+
+1) Inside `starter-code/` run `npm install`.
+2) Create the folders you will need for the project: `dist/` and `src/`.
+3) Create an `index.html` file inside of `public/`, where you will have the entry point of the application.
 
 ```
-react-hello-world
-│   README.md
-|   index.html
-|   package.json
-└───dist
-└───public
-└───src
+starter-code/
+├── dist/
+├── package-lock.json
+├── package.json
+├── public/
+│   ├── images
+│   │   └── ...
+│   └── index.html
+├── src/
+└── webpack.config.js
 ```
-
-#### Babel and Webpack
-
-Now we need to add the necessary to compile the project. Easy peasy, install both, `Babel` and `Webpack`.
-
-:::info
-Remember to add the `webpack.config.js` file!
-:::
 
 ### Iteration 2 - React Creation
 
-You are ready to start creating your ReactJS app. First, add the packages needed. And then create an `index.js` file inside the `src` folder.
+You are ready to start creating your React app. First, add the packages needed. And then create `index.js` and `App.js` files inside the `src/` folder.
 
 ```bash
-$ npm install react@16.3.2 and react-dom@16.3.2. 
+$ npm install react@16.3.2 and react-dom@16.3.2.
 ```
 
 ## Iteration 3 - First Landing Page
 
-Finally, let's create our landing page. In the `public` folder, you will find all the assets you need to recreate the following landing page:
+Finally, let's create our landing page. Create an `App.css` in `src/`. In the `public` folder, you will find all the assets you need to recreate the following landing page:
 
 ![home](https://user-images.githubusercontent.com/23629340/43718926-863a3c7a-998c-11e8-803b-7c9bc87425bb.png)
 
